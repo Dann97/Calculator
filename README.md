@@ -1,3 +1,5 @@
 # Calculator
 This project allow to perform mathematics operations
-<img src="./assert/Calculator.png">
+
+
+![calculator](https://github.com/Dann97/Calculator/blob/master/assert/Calculator.jpeg)
