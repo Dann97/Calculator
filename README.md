@@ -2,4 +2,4 @@
 This project allow to perform mathematics operations
 
 
-![calculator](./assert/Calculator.jpeg)
+![calculator](./assets/Calculator.jpeg)
