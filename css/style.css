@@ -24,15 +24,11 @@ header{
     padding-left: 10px;
     align-items: center;
     color: rgb(10, 12, 121);
-    /* font-size: 15px;  */
 }
-
 .col-3{
-    /* background-color: rgb(60, 81, 201); */
     grid-area: colDos;
     padding-top: 30%;    
 }
-
 footer{
     background-color: #00000099;
     grid-area: footer;
@@ -40,7 +36,6 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
 .container{
     display: flex;
     justify-content: center;
@@ -50,7 +45,6 @@ footer{
 }
 .calculadora{
     background-color: rgba(187, 202, 197, 0.871) ;
-    /* background-color: rgba(23, 235, 161, 0.871) ; */
     display: grid;
     grid-template-columns: repeat(4,75px);
     grid-template-rows: 160px repeat(5,75px);
@@ -58,8 +52,6 @@ footer{
     border-radius: 15px;
     box-shadow: 15px 10px 0px 5px #00000033 ;
 }
-
-
 button{
     font-size: 1.5em;
     color: white;
@@ -68,16 +60,12 @@ button{
     box-shadow: 5px 5px  10px -3px #00000040,-5px -5px 15px -3px #00ffc11f ;
     margin: 5px;
     background-color: rgba(8, 12, 112, 0.871) !important;
-    /* background-color: rgba(23, 235, 161, 0.871) !important; */
     cursor: pointer;
     padding: 0;
 }
 .col-2{
  grid-column: span 2;
 }
-/* button:active{
-    background-color: rgba(12, 141, 96, 0.871) !important;
-} */
 button:hover{
     background-color: rgba(12, 141, 96, 0.871) !important;
 }
@@ -96,16 +84,13 @@ button:focus{
     flex-direction: column;
     text-align: right;
     overflow:hidden;
-    
 }
-
 #valor-actual{
     font-size: 35px;
 }
 #valor-anterior{
     font-size: 25px;
 }
-
 h1{
     font-family:monospace;
 }
